@@ -7,11 +7,23 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu nome"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:layout_margin="16dp" />
+
     <TextView
-        android:id="@+id/textViewHello"
+        android:id="@+id/tvHelloMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_marginTop="16dp"/>
 
 </LinearLayout>
